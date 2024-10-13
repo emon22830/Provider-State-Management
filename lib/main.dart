@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:provider/stateful_widget_screen.dart';
-import 'package:provider/why_provider_screen.dart';
+// import 'package:provider/stateful_widget_screen.dart';
+// import 'package:provider/why_provider_screen.dart';
+import 'package:provider_state_management/count_example.dart';
 
 import 'home_screen.dart';
 
@@ -15,7 +16,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       // home: StatefulWidgetScreen(),
-      home: WhyProviderScreen(),
+      home: CountExample(),
     );
   }
 }
